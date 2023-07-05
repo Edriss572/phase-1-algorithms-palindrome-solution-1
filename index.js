@@ -8,11 +8,7 @@ function isPalindrome(word) {
   // Write your algorithm here
   const reverseWord = reversing(word);
 
-  if(word === reverseWord) {
-    return true
-  } else {
-    return false;
-  }
+  return word === reverseWord
 }
 
 /* 
